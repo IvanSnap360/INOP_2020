@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Manip">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.028965 0.014648 0.018056"
+        rpy="0 0 0" />
+      <mass
+        value="10.281" />
+      <inertia
+        ixx="0.1796"
+        ixy="-1.2096E-08"
+        ixz="-1.3275E-05"
+        iyy="0.37335"
+        iyz="-1.3791E-06"
+        izz="0.19457" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8902 0.66667 0.50196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Joint_0">
+    <inertial>
+      <origin
+        xyz="-0.000934 0.024546 -0.000934"
+        rpy="0 0 0" />
+      <mass
+        value="0.63473" />
+      <inertia
+        ixx="0.00031172"
+        ixy="-2.8505E-06"
+        ixz="-0.00013487"
+        iyy="0.00055107"
+        iyz="-2.8505E-06"
+        izz="0.00031172" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.18039 0.54118 0.34118 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_0"
+    type="revolute">
+    <origin
+      xyz="-0.030548 -0.017972 0.076858"
+      rpy="1.5708 0 0.7854" />
+    <parent
+      link="base_link" />
+    <child
+      link="Joint_0" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Joint_1">
+    <inertial>
+      <origin
+        xyz="0.0805 0.033124 -4.8711E-15"
+        rpy="0 0 0" />
+      <mass
+        value="0.54478" />
+      <inertia
+        ixx="9.408E-05"
+        ixy="-4.8965E-19"
+        ixz="-7.5425E-18"
+        iyy="0.00020106"
+        iyz="-4.0146E-20"
+        izz="0.00020704" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.12941 0.54118 0.12941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_1"
+    type="revolute">
+    <origin
+      xyz="0.024005 0.0597 0.024005"
+      rpy="-0.7854 0 1.5708" />
+    <parent
+      link="Joint_0" />
+    <child
+      link="Joint_1" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Joint_2">
+    <inertial>
+      <origin
+        xyz="-0.03852 0.012612 0.00028682"
+        rpy="0 0 0" />
+      <mass
+        value="0.66962" />
+      <inertia
+        ixx="0.00013342"
+        ixy="-3.3499E-06"
+        ixz="2.1416E-05"
+        iyy="0.00032933"
+        iyz="-3.4326E-06"
+        izz="0.00026422" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.5098 0.52157 0.63922 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_2"
+    type="revolute">
+    <origin
+      xyz="0.17088 0.036825 -0.01"
+      rpy="1.5708 0 3.1416" />
+    <parent
+      link="Joint_1" />
+    <child
+      link="Joint_2" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Joint_3">
+    <inertial>
+      <origin
+        xyz="0.002424 -0.006919 0.0073683"
+        rpy="0 0 0" />
+      <mass
+        value="0.37409" />
+      <inertia
+        ixx="9.8668E-05"
+        ixy="-1.3865E-06"
+        ixz="5.0862E-06"
+        iyy="7.8881E-05"
+        iyz="7.0671E-07"
+        izz="5.4051E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.18431 0.62353 0.76471 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_3"
+    type="revolute">
+    <origin
+      xyz="-0.17527 0.0125 0.00445"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="Joint_2" />
+    <child
+      link="Joint_3" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Joint_4">
+    <inertial>
+      <origin
+        xyz="-1.249E-16 3.4694E-18 0.0025"
+        rpy="0 0 0" />
+      <mass
+        value="0.0055526" />
+      <inertia
+        ixx="1.2773E-07"
+        ixy="-2.4068E-22"
+        ixz="-5.156E-21"
+        iyy="1.2773E-07"
+        iyz="2.9995E-22"
+        izz="2.3232E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.87843 0.87451 0.85882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/Joint_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Joint_4"
+    type="revolute">
+    <origin
+      xyz="0 -0.0075 -0.0175"
+      rpy="3.1416 0 -1.5708" />
+    <parent
+      link="Joint_3" />
+    <child
+      link="Joint_4" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="gripper">
+    <inertial>
+      <origin
+        xyz="-0.0014007 -0.00041743 0.012432"
+        rpy="0 0 0" />
+      <mass
+        value="0.25253" />
+      <inertia
+        ixx="6.1541E-05"
+        ixy="-1.0057E-06"
+        ixz="-3.2368E-06"
+        iyy="9.5516E-05"
+        iyz="-5.8464E-07"
+        izz="5.2584E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/gripper.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.8 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/gripper.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="gripper"
+    type="revolute">
+    <origin
+      xyz="0 0 0.017"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Joint_4" />
+    <child
+      link="gripper" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="GR_Joint_0">
+    <inertial>
+      <origin
+        xyz="-0.0061104 0.0015 -0.018"
+        rpy="0 0 0" />
+      <mass
+        value="0.0073334" />
+      <inertia
+        ixx="1.1684E-06"
+        ixy="6.035E-21"
+        ixz="2.3558E-21"
+        iyy="1.3047E-06"
+        iyz="2.9541E-20"
+        izz="1.4727E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/GR_Joint_0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.81176 0.3098 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/GR_Joint_0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="GR_Joint_0"
+    type="revolute">
+    <origin
+      xyz="-0.014116 -0.00755 0.031158"
+      rpy="0 0.52343 0" />
+    <parent
+      link="gripper" />
+    <child
+      link="GR_Joint_0" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="GR_Joint_1">
+    <inertial>
+      <origin
+        xyz="6.9389E-17 0.0015 -6.9389E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.0042855" />
+      <inertia
+        ixx="3.6183E-07"
+        ixy="5.5972E-22"
+        ixz="6.5968E-23"
+        iyy="3.7215E-07"
+        iyz="1.3875E-21"
+        izz="1.6751E-08" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/GR_Joint_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.74902 0.74902 0.74902 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/GR_Joint_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="GR_Joint_1"
+    type="revolute">
+    <origin
+      xyz="0.006999 0.003 -0.049267"
+      rpy="0 -0.48544 0" />
+    <parent
+      link="GR_Joint_0" />
+    <child
+      link="GR_Joint_1" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="GR_Joint_3">
+    <inertial>
+      <origin
+        xyz="-0.0015448 -0.014487 0.0057276"
+        rpy="0 0 0" />
+      <mass
+        value="0.10764" />
+      <inertia
+        ixx="4.0275E-05"
+        ixy="-2.8273E-06"
+        ixz="-3.3649E-07"
+        iyy="2.8641E-05"
+        iyz="-1.0631E-06"
+        izz="1.5489E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/GR_Joint_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.50196 0 0.50196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Manip/meshes/GR_Joint_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="GR_Joint_3"
+    type="prismatic">
+    <origin
+      xyz="0.033416 0.00655 -0.018734"
+      rpy="3.1416 -1.5328 3.1416" />
+    <parent
+      link="GR_Joint_1" />
+    <child
+      link="GR_Joint_3" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
