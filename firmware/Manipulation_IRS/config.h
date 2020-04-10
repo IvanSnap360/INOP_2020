@@ -1,0 +1,196 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define MIN 0
+#define MAX 1
+#define CUR 2
+#define ON true
+#define OFF false
+#define _X_ 0
+#define _Y_ 1
+#define _Z_ 2
+
+#define BLACK 0
+#define RED 1
+#define GREEN 2
+#define BLUE 3
+#define YELLOW 4
+
+#define BIG 0
+#define LITTEL 1
+
+
+#define WORKSHOP_SIZE_X 5
+#define WORKSHOP_SIZE_Y 2
+
+#define PLAN_SIZE_X 3
+#define PLAN_SIZE_Y 3
+
+#define BUILDING_SIZE_X 3
+#define BUILDING_SIZE_Y 3
+
+#define START_STOP_BUTTON_PIN 0
+#define INIT_LED_PIN 0
+
+#define BUZZER_PIN 0
+
+
+#define JOINT_COUNT 6
+
+#define JOINT_0_ID 0
+#define JOINT_0_LENTH_MM 100
+#define JOINT_0_MOTOR_PIN 0
+#define JOINT_0_INDICATOR_PIN 0
+#define JOINT_0_POS_MAX_DEGS    0
+#define JOINT_0_POS_MIN_DEGS    0
+#define JOINT_0_POS_CUR_DEGS    0
+#define JOINT_0_POS_HOME_DEGS   0
+#define JOINT_0_SPEED           0
+#define JOINT_0_ACCEL           0.0
+
+#define JOINT_1_ID 1
+#define JOINT_1_LENTH_MM 100
+#define JOINT_1_MOTOR_PIN 0
+#define JOINT_1_INDICATOR_PIN 0
+#define JOINT_1_POS_MAX_DEGS    0
+#define JOINT_1_POS_MIN_DEGS    0
+#define JOINT_1_POS_CUR_DEGS    0
+#define JOINT_1_POS_HOME_DEGS   0
+#define JOINT_1_SPEED           0
+#define JOINT_1_ACCEL           0.0
+
+#define JOINT_2_ID 2
+#define JOINT_2_LENTH_MM 100
+#define JOINT_2_MOTOR_PIN 0
+#define JOINT_2_INDICATOR_PIN 0
+#define JOINT_2_POS_MAX_DEGS    0
+#define JOINT_2_POS_MIN_DEGS    0
+#define JOINT_2_POS_CUR_DEGS    0
+#define JOINT_2_POS_HOME_DEGS   0
+#define JOINT_2_SPEED           0
+#define JOINT_2_ACCEL           0.0
+
+#define JOINT_3_ID 3
+#define JOINT_3_LENTH_MM 100
+#define JOINT_3_MOTOR_PIN 0
+#define JOINT_3_INDICATOR_PIN 0
+#define JOINT_3_POS_MAX_DEGS    0
+#define JOINT_3_POS_MIN_DEGS    0
+#define JOINT_3_POS_CUR_DEGS    0
+#define JOINT_3_POS_HOME_DEGS   0
+#define JOINT_3_SPEED           0
+#define JOINT_3_ACCEL           0.0
+
+#define JOINT_4_ID 4
+#define JOINT_4_LENTH_MM 100
+#define JOINT_4_MOTOR_PIN 0
+#define JOINT_4_INDICATOR_PIN 0
+#define JOINT_4_POS_MAX_DEGS    0
+#define JOINT_4_POS_MIN_DEGS    0
+#define JOINT_4_POS_CUR_DEGS    0
+#define JOINT_4_POS_HOME_DEGS   0
+#define JOINT_4_SPEED           0
+#define JOINT_4_ACCEL           0.0
+
+#define JOINT_5_ID 5
+#define JOINT_5_LENTH_MM 100
+#define JOINT_5_MOTOR_PIN 0
+#define JOINT_5_INDICATOR_PIN 0
+#define JOINT_5_POS_MAX_DEGS    0
+#define JOINT_5_POS_MIN_DEGS    0
+#define JOINT_5_POS_CUR_DEGS    0
+#define JOINT_5_POS_HOME_DEGS   0
+#define JOINT_5_SPEED           0
+#define JOINT_5_ACCEL           0.0
+
+double JOINT_LENTH_MM[JOINT_COUNT] = 
+{
+    JOINT_0_LENTH_MM, 
+    JOINT_1_LENTH_MM, 
+    JOINT_2_LENTH_MM, 
+    JOINT_3_LENTH_MM, 
+    JOINT_4_LENTH_MM, 
+    JOINT_5_LENTH_MM
+};
+
+int JOINT_MOTOR_PIN[JOINT_COUNT] = 
+{
+    JOINT_0_MOTOR_PIN,
+    JOINT_1_MOTOR_PIN,
+    JOINT_2_MOTOR_PIN,
+    JOINT_3_MOTOR_PIN,
+    JOINT_4_MOTOR_PIN,
+    JOINT_5_MOTOR_PIN
+};
+
+int JOINT_INDICATOR_PIN[JOINT_COUNT] =
+{
+    JOINT_0_INDICATOR_PIN,
+    JOINT_1_INDICATOR_PIN,
+    JOINT_2_INDICATOR_PIN,
+    JOINT_3_INDICATOR_PIN,
+    JOINT_4_INDICATOR_PIN,
+    JOINT_5_INDICATOR_PIN
+};
+
+int JOINT_POS_MAX_DEGS[JOINT_COUNT] = 
+{
+    JOINT_0_POS_MAX_DEGS,
+    JOINT_1_POS_MAX_DEGS,
+    JOINT_2_POS_MAX_DEGS,
+    JOINT_3_POS_MAX_DEGS,
+    JOINT_4_POS_MAX_DEGS,
+    JOINT_5_POS_MAX_DEGS,
+};
+
+int JOINT_POS_CUR_DEGS[JOINT_COUNT] = 
+{
+    JOINT_0_POS_CUR_DEGS,
+    JOINT_1_POS_CUR_DEGS,
+    JOINT_2_POS_CUR_DEGS,
+    JOINT_3_POS_CUR_DEGS,
+    JOINT_4_POS_CUR_DEGS,
+    JOINT_5_POS_CUR_DEGS,
+};
+
+int JOINT_POS_MIN_DEGS[JOINT_COUNT] = 
+{
+    JOINT_0_POS_MIN_DEGS,
+    JOINT_1_POS_MIN_DEGS,
+    JOINT_2_POS_MIN_DEGS,
+    JOINT_3_POS_MIN_DEGS,
+    JOINT_4_POS_MIN_DEGS,
+    JOINT_5_POS_MIN_DEGS,
+};
+
+int JOINT_POS_HOME_DEGS[JOINT_COUNT] = 
+{
+    JOINT_0_POS_HOME_DEGS,
+    JOINT_1_POS_HOME_DEGS,
+    JOINT_2_POS_HOME_DEGS,
+    JOINT_3_POS_HOME_DEGS,
+    JOINT_4_POS_HOME_DEGS,
+    JOINT_5_POS_HOME_DEGS,
+};
+
+int JOINT_SPEED[JOINT_COUNT] =
+{
+    JOINT_0_SPEED,
+    JOINT_1_SPEED,
+    JOINT_2_SPEED,
+    JOINT_3_SPEED,
+    JOINT_4_SPEED,
+    JOINT_5_SPEED
+};
+
+double JOINT_ACCEL[JOINT_COUNT] =
+{
+    JOINT_0_ACCEL,
+    JOINT_1_ACCEL,
+    JOINT_2_ACCEL,
+    JOINT_3_ACCEL,
+    JOINT_4_ACCEL,
+    JOINT_5_ACCEL
+};
+
+#endif

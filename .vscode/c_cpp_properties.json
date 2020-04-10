@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\stm32duino\\tools\\**",
+                "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\stm32duino\\hardware\\STM32F1\\2019.10.9\\**"
+            ],
+            "forcedInclude": [],
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}
