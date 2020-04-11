@@ -27,7 +27,7 @@ while True:
         if cnts:
             cnts = sorted(cnts, key=cv2.contourArea, reverse= True)
             frame_gray_peri = cv2.arcLength(c, True)
-            frame_gray_approx = cv2.approxPolyDP(c, 0.01 * frame_gray_peri, True)
+            frame_gray_approx = cv2.approxPolyDP(c, 0.08 * frame_gray_peri, True)
             if len(frame_gray_approx) == 4:
                 cv2.drawContours(frame, [frame_gray_approx], -1, (0, 255, 0), 4)
                 total += 1
@@ -39,7 +39,7 @@ while True:
     cv2.imshow("FRAME_gray_EDGED", frame_gray_edged)
     #cv2.imshow("FRAME_gray_CLOSED", frame_gray_closed)
     cv2.imshow('contours', frame) 
-    #print(total)
+    print(total)
 
 
 

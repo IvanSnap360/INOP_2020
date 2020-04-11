@@ -1,4 +1,5 @@
 #include <ServoSmooth.h>
+#include <math.h>
 #include "config.h"
 #include "sturcts.h"
 
@@ -10,6 +11,8 @@ Robot BOT;
 WORKSHOP WSHP;
 PLAN plan;
 CONSTRUCTION CONST;
+
+Position POS;
 
 
 unsigned long servo_timer = 0;
@@ -92,6 +95,20 @@ void to_home()
     }
 }
 
+// void math(double _x, double _y, double _z)
+// {
+    // double L1, L2, L3, q1, q2, q3, uA, uB, uC;
+    // L1 = JOINT_1_LENTH_MM;
+    // L2 = JOINT_2_LENTH_MM;
+// 
+    // L3 = sqrt((cos(_x)^2) + sqr(sin(_y)));
+    // q2 = arccos(sqr(L1) + sqr(L2) + sqr(L3)) / (2 * L1 * L3);
+    // q1 = arccos(L3 / cos(_x));
+    // uA = degs(q1+q2);
+    // uB = arccos(sqr(L1) + sqr(L2) - sqr(L3)) / (2 * L2 * L1);
+    // uC = 180 - ((arccos(sqr(L2) + sqr(L3) - sqr(L1)) / (2 * L2 * L1)) - (cos(_x) / L3) );
+// }
+// 
 void go_servo_home(int _id)
 {
     joint[_id].setTargetDeg(BOT.joint[_id].pos_home);
@@ -108,14 +125,3 @@ void pins_init()
     pinMode(BUZZER_PIN, OUTPUT);
     pinMode(INIT_LED_PIN, OUTPUT);
 }
-
-
-
-
-
-
-
-
-
-
-
