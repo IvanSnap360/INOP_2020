@@ -3,10 +3,15 @@
         {
             "name": "Win32",
             "includePath": [
+                "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\**",
+                "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\**",
                 "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\stm32duino\\tools\\**",
-                "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\stm32duino\\hardware\\STM32F1\\2019.10.9\\**"
+                "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\stm32duino\\hardware\\STM32F1\\2019.10.9\\**",
+                "${workspaceFolder}/firmware/Manipulation_IRS/libs/ServoSmooth"
             ],
-            "forcedInclude": [],
+            "forcedInclude": [
+                "C:\\Users\\Петров Иван\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.2\\cores\\arduino\\Arduino.h"
+            ],
             "intelliSenseMode": "msvc-x64"
         }
     ],

@@ -19,6 +19,9 @@
 #define BIG 0
 #define LITTEL 1
 
+#define GRIPPER_MODE_VERTICAL 0
+#define GRIPPER_MODE_GORIZONTAL 1
+
 
 #define WORKSHOP_SIZE_X 5
 #define WORKSHOP_SIZE_Y 2
@@ -49,7 +52,7 @@
 #define JOINT_0_ACCEL           0.0
 
 #define JOINT_1_ID 1
-#define JOINT_1_LENTH_MM 100
+#define JOINT_1_LENTH_MM 160.528
 #define JOINT_1_MOTOR_PIN 0
 #define JOINT_1_INDICATOR_PIN 0
 #define JOINT_1_POS_MAX_DEGS    0
@@ -60,7 +63,7 @@
 #define JOINT_1_ACCEL           0.0
 
 #define JOINT_2_ID 2
-#define JOINT_2_LENTH_MM 100
+#define JOINT_2_LENTH_MM 158.939
 #define JOINT_2_MOTOR_PIN 0
 #define JOINT_2_INDICATOR_PIN 0
 #define JOINT_2_POS_MAX_DEGS    0
@@ -71,7 +74,7 @@
 #define JOINT_2_ACCEL           0.0
 
 #define JOINT_3_ID 3
-#define JOINT_3_LENTH_MM 100
+#define JOINT_3_LENTH_MM 43.2
 #define JOINT_3_MOTOR_PIN 0
 #define JOINT_3_INDICATOR_PIN 0
 #define JOINT_3_POS_MAX_DEGS    0
@@ -102,6 +105,8 @@
 #define JOINT_5_POS_HOME_DEGS   0
 #define JOINT_5_SPEED           0
 #define JOINT_5_ACCEL           0.0
+
+#define GRIPPER_MODE GRIPPER_MODE_VERTICAL
 
 double JOINT_LENTH_MM[JOINT_COUNT] = 
 {

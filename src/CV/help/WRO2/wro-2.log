@@ -1,0 +1,8 @@
+Connecting to Arduino...
+Waiting data from arduino...
+Message from arduino: b'Hello from Robot!\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Turn left\r\n'
+Message from arduino: b'Move home\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Waiting...\r\n'

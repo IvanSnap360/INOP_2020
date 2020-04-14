@@ -1,0 +1,869 @@
+Connecting to Arduino...
+Waiting data from arduino...
+Message from arduino: b'Hello from Robot!\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Move home\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'GO!\r\n'
+Detecting colors
+['SMALL', 0, 'R', 2017]
+['SMALL', 1, 'R', 0]
+['SMALL', 2, 'R', 0]
+['SMALL', 3, 'R', 0]
+['SMALL', 4, 'R', 0]
+['SMALL', 5, 'R', 0]
+['LARGE', 0, 'R', 8398]
+['LARGE', 1, 'R', 975]
+['LARGE', 2, 'R', 1114]
+['LARGE', 3, 'R', 975]
+['LARGE', 4, 'R', 975]
+['LARGE', 5, 'R', 1786]
+['SMALL', 0, 'G', 475]
+['SMALL', 1, 'G', 487]
+['SMALL', 2, 'G', 475]
+['SMALL', 3, 'G', 2500]
+['SMALL', 4, 'G', 500]
+['SMALL', 5, 'G', 475]
+['LARGE', 0, 'G', 0]
+['LARGE', 1, 'G', 4]
+['LARGE', 2, 'G', 345]
+['LARGE', 3, 'G', 7683]
+['LARGE', 4, 'G', 79]
+['LARGE', 5, 'G', 191]
+['SMALL', 0, 'B', 0]
+['SMALL', 1, 'B', 2023]
+['SMALL', 2, 'B', 0]
+['SMALL', 3, 'B', 0]
+['SMALL', 4, 'B', 0]
+['SMALL', 5, 'B', 0]
+['LARGE', 0, 'B', 0]
+['LARGE', 1, 'B', 6318]
+['LARGE', 2, 'B', 74]
+['LARGE', 3, 'B', 0]
+['LARGE', 4, 'B', 0]
+['LARGE', 5, 'B', 0]
+['SMALL', 0, 'W', 0]
+['SMALL', 1, 'W', 0]
+['SMALL', 2, 'W', 2004]
+['SMALL', 3, 'W', 0]
+['SMALL', 4, 'W', 0]
+['SMALL', 5, 'W', 0]
+['LARGE', 0, 'W', 4]
+['LARGE', 1, 'W', 0]
+['LARGE', 2, 'W', 7767]
+['LARGE', 3, 'W', 0]
+['LARGE', 4, 'W', 0]
+['LARGE', 5, 'W', 123]
+['SMALL', 0, 'Y', 0]
+['SMALL', 1, 'Y', 0]
+['SMALL', 2, 'Y', 0]
+['SMALL', 3, 'Y', 0]
+['SMALL', 4, 'Y', 0]
+['SMALL', 5, 'Y', 2025]
+['LARGE', 0, 'Y', 4]
+['LARGE', 1, 'Y', 0]
+['LARGE', 2, 'Y', 119]
+['LARGE', 3, 'Y', 0]
+['LARGE', 4, 'Y', 0]
+['LARGE', 5, 'Y', 6817]
+Shablon
+['R', 'B', 'W', 'G', 'N', 'Y']
+Sklad
+['R', 'B', 'W', 'G', 'N', 'Y']
+Waiting data from arduino...
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'All OK!\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Done!\r\n'
+Message from arduino: b'5 sec.\r\n'
+Message from arduino: b'Move home\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'GO!\r\n'
+Detecting colors
+['SMALL', 0, 'R', 0]
+['SMALL', 1, 'R', 11]
+['SMALL', 2, 'R', 0]
+['SMALL', 3, 'R', 0]
+['SMALL', 4, 'R', 0]
+['SMALL', 5, 'R', 2024]
+['LARGE', 0, 'R', 8107]
+['LARGE', 1, 'R', 975]
+['LARGE', 2, 'R', 1083]
+['LARGE', 3, 'R', 975]
+['LARGE', 4, 'R', 975]
+['LARGE', 5, 'R', 2159]
+['SMALL', 0, 'G', 475]
+['SMALL', 1, 'G', 641]
+['SMALL', 2, 'G', 2500]
+['SMALL', 3, 'G', 475]
+['SMALL', 4, 'G', 506]
+['SMALL', 5, 'G', 475]
+['LARGE', 0, 'G', 1]
+['LARGE', 1, 'G', 0]
+['LARGE', 2, 'G', 392]
+['LARGE', 3, 'G', 6916]
+['LARGE', 4, 'G', 9]
+['LARGE', 5, 'G', 168]
+['SMALL', 0, 'B', 0]
+['SMALL', 1, 'B', 0]
+['SMALL', 2, 'B', 0]
+['SMALL', 3, 'B', 0]
+['SMALL', 4, 'B', 1970]
+['SMALL', 5, 'B', 0]
+['LARGE', 0, 'B', 0]
+['LARGE', 1, 'B', 5865]
+['LARGE', 2, 'B', 91]
+['LARGE', 3, 'B', 0]
+['LARGE', 4, 'B', 0]
+['LARGE', 5, 'B', 0]
+['SMALL', 0, 'W', 0]
+['SMALL', 1, 'W', 0]
+['SMALL', 2, 'W', 0]
+['SMALL', 3, 'W', 1998]
+['SMALL', 4, 'W', 0]
+['SMALL', 5, 'W', 0]
+['LARGE', 0, 'W', 0]
+['LARGE', 1, 'W', 0]
+['LARGE', 2, 'W', 7386]
+['LARGE', 3, 'W', 0]
+['LARGE', 4, 'W', 0]
+['LARGE', 5, 'W', 42]
+['SMALL', 0, 'Y', 2025]
+['SMALL', 1, 'Y', 0]
+['SMALL', 2, 'Y', 0]
+['SMALL', 3, 'Y', 0]
+['SMALL', 4, 'Y', 0]
+['SMALL', 5, 'Y', 0]
+['LARGE', 0, 'Y', 2]
+['LARGE', 1, 'Y', 0]
+['LARGE', 2, 'Y', 104]
+['LARGE', 3, 'Y', 0]
+['LARGE', 4, 'Y', 0]
+['LARGE', 5, 'Y', 7304]
+Shablon
+['Y', 'N', 'G', 'W', 'B', 'R']
+Sklad
+['R', 'B', 'W', 'G', 'N', 'Y']
+Waiting data from arduino...
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'RBWGNY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to free cell 0\r\n'
+Message from arduino: b'Selected level is 0\r\n'
+Message from arduino: b'Cell 2 is ball\r\n'
+Message from arduino: b'Cell 5 is ball\r\n'
+Message from arduino: b'Cell 5 has valid color\r\n'
+Message from arduino: b'Allowed positions: 010110\r\n'
+Message from arduino: b'Move cube from 0:0 to 1:1\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 0 to 1 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 1 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 1\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0R0000\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0R0000\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 0\r\n'
+Message from arduino: b'Cell is disabled (bashnya)\r\n'
+Message from arduino: b'Trying to free cell 1\r\n'
+Message from arduino: b'Selected level is 1\r\n'
+Message from arduino: b'Cell 0 disabled (bashnya)\r\n'
+Message from arduino: b'Cell 1 has second level\r\n'
+Message from arduino: b'Cell 2 is ball\r\n'
+Message from arduino: b'Cell 4 has valid color\r\n'
+Message from arduino: b'Cell 5 is ball\r\n'
+Message from arduino: b'Allowed positions: 000100\r\n'
+Message from arduino: b'Move cube from 1:1 to 3:1\r\n'
+Message from arduino: b'Calc level for moving from 1 to 1 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move to position 1\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 3\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 0\r\n'
+Message from arduino: b'Move cube from 5:0 to 0:0\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn right\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 3 to 4 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 4\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn left\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 with cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 with cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'YBWGN0\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 1 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'YBWGN0\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 5\r\n'
+Message from arduino: b'Move cube from 3:1 to 5:0\r\n'
+Message from arduino: b'Calc level for moving from 0 to 3 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 3 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 3\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn right\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 3 to 4 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 4\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'YBWGNR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 1 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'YBWGNR\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to free cell 1\r\n'
+Message from arduino: b'Selected level is 0\r\n'
+Message from arduino: b'Cell 0 is ball\r\n'
+Message from arduino: b'Cell 2 is ball\r\n'
+Message from arduino: b'Cell 4 has valid color\r\n'
+Message from arduino: b'Allowed positions: 000101\r\n'
+Message from arduino: b'Move cube from 1:0 to 3:1\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 2\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000B00\r\n'
+Message from arduino: b'Y0WGNR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 1 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000B00\r\n'
+Message from arduino: b'Y0WGNR\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 1\r\n'
+Message from arduino: b'Move cube from 4:0 to 1:0\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn left\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Hello from Robot!\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Move home\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'GO!\r\n'
+Detecting colors
+['SMALL', 0, 'R', 0]
+['SMALL', 1, 'R', 16]
+['SMALL', 2, 'R', 0]
+['SMALL', 3, 'R', 0]
+['SMALL', 4, 'R', 0]
+['SMALL', 5, 'R', 2025]
+['LARGE', 0, 'R', 8048]
+['LARGE', 1, 'R', 975]
+['LARGE', 2, 'R', 1145]
+['LARGE', 3, 'R', 975]
+['LARGE', 4, 'R', 975]
+['LARGE', 5, 'R', 2877]
+['SMALL', 0, 'G', 475]
+['SMALL', 1, 'G', 682]
+['SMALL', 2, 'G', 2500]
+['SMALL', 3, 'G', 475]
+['SMALL', 4, 'G', 482]
+['SMALL', 5, 'G', 475]
+['LARGE', 0, 'G', 0]
+['LARGE', 1, 'G', 5]
+['LARGE', 2, 'G', 401]
+['LARGE', 3, 'G', 7119]
+['LARGE', 4, 'G', 9]
+['LARGE', 5, 'G', 57]
+['SMALL', 0, 'B', 0]
+['SMALL', 1, 'B', 0]
+['SMALL', 2, 'B', 0]
+['SMALL', 3, 'B', 0]
+['SMALL', 4, 'B', 1952]
+['SMALL', 5, 'B', 0]
+['LARGE', 0, 'B', 0]
+['LARGE', 1, 'B', 5937]
+['LARGE', 2, 'B', 65]
+['LARGE', 3, 'B', 0]
+['LARGE', 4, 'B', 0]
+['LARGE', 5, 'B', 0]
+['SMALL', 0, 'W', 0]
+['SMALL', 1, 'W', 0]
+['SMALL', 2, 'W', 0]
+['SMALL', 3, 'W', 2006]
+['SMALL', 4, 'W', 0]
+['SMALL', 5, 'W', 0]
+['LARGE', 0, 'W', 0]
+['LARGE', 1, 'W', 0]
+['LARGE', 2, 'W', 6723]
+['LARGE', 3, 'W', 0]
+['LARGE', 4, 'W', 0]
+['LARGE', 5, 'W', 0]
+['SMALL', 0, 'Y', 2025]
+['SMALL', 1, 'Y', 0]
+['SMALL', 2, 'Y', 0]
+['SMALL', 3, 'Y', 0]
+['SMALL', 4, 'Y', 0]
+['SMALL', 5, 'Y', 0]
+['LARGE', 0, 'Y', 1]
+['LARGE', 1, 'Y', 0]
+['LARGE', 2, 'Y', 175]
+['LARGE', 3, 'Y', 0]
+['LARGE', 4, 'Y', 0]
+['LARGE', 5, 'Y', 6957]
+Shablon
+['Y', 'N', 'G', 'W', 'B', 'R']
+Sklad
+['R', 'B', 'W', 'G', 'N', 'Y']
+Waiting data from arduino...
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'RBWGNY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to free cell 0\r\n'
+Message from arduino: b'Selected level is 0\r\n'
+Message from arduino: b'Cell 2 is ball\r\n'
+Message from arduino: b'Cell 5 is ball\r\n'
+Message from arduino: b'Cell 5 has valid color\r\n'
+Message from arduino: b'Allowed positions: 010110\r\n'
+Message from arduino: b'Move cube from 0:0 to 1:1\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 0 to 1 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 1 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 1\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0R0000\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0R0000\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 0\r\n'
+Message from arduino: b'Cell is disabled (bashnya)\r\n'
+Message from arduino: b'Trying to free cell 1\r\n'
+Message from arduino: b'Selected level is 1\r\n'
+Message from arduino: b'Cell 0 disabled (bashnya)\r\n'
+Message from arduino: b'Cell 1 has second level\r\n'
+Message from arduino: b'Cell 2 is ball\r\n'
+Message from arduino: b'Cell 4 has valid color\r\n'
+Message from arduino: b'Cell 5 is ball\r\n'
+Message from arduino: b'Allowed positions: 000100\r\n'
+Message from arduino: b'Move cube from 1:1 to 3:1\r\n'
+Message from arduino: b'Calc level for moving from 1 to 1 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move to position 1\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 3\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'0BWGNY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 0\r\n'
+Message from arduino: b'Move cube from 5:0 to 0:0\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn right\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 3 to 4 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 4\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn left\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 with cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 with cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'YBWGN0\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 1 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000R00\r\n'
+Message from arduino: b'YBWGN0\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 5\r\n'
+Message from arduino: b'Move cube from 3:1 to 5:0\r\n'
+Message from arduino: b'Calc level for moving from 0 to 3 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 3 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 3\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn right\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 3 to 4 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 4\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'YBWGNR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 1 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'YBWGNR\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to free cell 1\r\n'
+Message from arduino: b'Selected level is 0\r\n'
+Message from arduino: b'Cell 0 is ball\r\n'
+Message from arduino: b'Cell 2 is ball\r\n'
+Message from arduino: b'Cell 4 has valid color\r\n'
+Message from arduino: b'Allowed positions: 000101\r\n'
+Message from arduino: b'Move cube from 1:0 to 3:1\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 2\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000B00\r\n'
+Message from arduino: b'Y0WGNR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 1 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000B00\r\n'
+Message from arduino: b'Y0WGNR\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 1\r\n'
+Message from arduino: b'Move cube from 4:0 to 1:0\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn left\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 2 to 4 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 4\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 4 to 1 with cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Calc level for moving from 4 to 1 with cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 1\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000B00\r\n'
+Message from arduino: b'YNWG0R\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 2 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000B00\r\n'
+Message from arduino: b'YNWG0R\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 4\r\n'
+Message from arduino: b'Move cube from 3:1 to 4:0\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 3\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 3 to 4 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 4\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'YNWGBR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 2 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'YNWGBR\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to free cell 2\r\n'
+Message from arduino: b'Selected level is 0\r\n'
+Message from arduino: b'Cell 0 is ball\r\n'
+Message from arduino: b'Cell 2 is ball\r\n'
+Message from arduino: b'Cell 3 disabled (dop. zadanie)\r\n'
+Message from arduino: b'Cell 3 has valid color\r\n'
+Message from arduino: b'Cell 5 disabled (dop. zadanie)\r\n'
+Message from arduino: b'Allowed positions: 010010\r\n'
+Message from arduino: b'Move cube from 2:0 to 1:1\r\n'
+Message from arduino: b'Calc level for moving from 4 to 2 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 4 to 2 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move to position 2\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 2 to 1 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 2 to 1 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 1\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0W0000\r\n'
+Message from arduino: b'YN0GBR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 2 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0W0000\r\n'
+Message from arduino: b'YN0GBR\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 2\r\n'
+Message from arduino: b'Move cube from 3:0 to 2:0\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move to position 3\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 3 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 3 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move to position 2\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0W0000\r\n'
+Message from arduino: b'YNG0BR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 3 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'0W0000\r\n'
+Message from arduino: b'YNG0BR\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 3\r\n'
+Message from arduino: b'Move cube from 1:1 to 3:0\r\n'
+Message from arduino: b'Calc level for moving from 2 to 1 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 2 to 1 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move to position 1\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 1 to 3 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 3\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'YNGWBR\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'All OK!\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Done!\r\n'
+Message from arduino: b'52 sec.\r\n'
+Message from arduino: b'Move home\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

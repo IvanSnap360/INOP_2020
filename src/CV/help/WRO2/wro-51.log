@@ -1,0 +1,336 @@
+Connecting to Arduino...
+Waiting data from arduino...
+Message from arduino: b'Hello from Robot!\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Move home\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Waiting...\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'GO!\r\n'
+Detecting colors
+['SMALL', 0, 'R', 0]
+['SMALL', 1, 'R', 2025]
+['SMALL', 2, 'R', 0]
+['SMALL', 3, 'R', 0]
+['SMALL', 4, 'R', 0]
+['SMALL', 5, 'R', 1]
+['LARGE', 0, 'R', 1028]
+['LARGE', 1, 'R', 975]
+['LARGE', 2, 'R', 8930]
+['LARGE', 3, 'R', 975]
+['LARGE', 4, 'R', 975]
+['LARGE', 5, 'R', 1370]
+['SMALL', 0, 'G', 585]
+['SMALL', 1, 'G', 475]
+['SMALL', 2, 'G', 475]
+['SMALL', 3, 'G', 475]
+['SMALL', 4, 'G', 475]
+['SMALL', 5, 'G', 542]
+['LARGE', 0, 'G', 787]
+['LARGE', 1, 'G', 5873]
+['LARGE', 2, 'G', 0]
+['LARGE', 3, 'G', 2]
+['LARGE', 4, 'G', 0]
+['LARGE', 5, 'G', 14]
+['SMALL', 0, 'B', 0]
+['SMALL', 1, 'B', 0]
+['SMALL', 2, 'B', 0]
+['SMALL', 3, 'B', 0]
+['SMALL', 4, 'B', 0]
+['SMALL', 5, 'B', 2020]
+['LARGE', 0, 'B', 259]
+['LARGE', 1, 'B', 13]
+['LARGE', 2, 'B', 0]
+['LARGE', 3, 'B', 5881]
+['LARGE', 4, 'B', 0]
+['LARGE', 5, 'B', 0]
+['SMALL', 0, 'W', 0]
+['SMALL', 1, 'W', 0]
+['SMALL', 2, 'W', 0]
+['SMALL', 3, 'W', 0]
+['SMALL', 4, 'W', 0]
+['SMALL', 5, 'W', 0]
+['LARGE', 0, 'W', 0]
+['LARGE', 1, 'W', 0]
+['LARGE', 2, 'W', 0]
+['LARGE', 3, 'W', 0]
+['LARGE', 4, 'W', 8423]
+['LARGE', 5, 'W', 654]
+['SMALL', 0, 'Y', 0]
+['SMALL', 1, 'Y', 0]
+['SMALL', 2, 'Y', 0]
+['SMALL', 3, 'Y', 0]
+['SMALL', 4, 'Y', 2025]
+['SMALL', 5, 'Y', 0]
+['LARGE', 0, 'Y', 0]
+['LARGE', 1, 'Y', 0]
+['LARGE', 2, 'Y', 0]
+['LARGE', 3, 'Y', 0]
+['LARGE', 4, 'Y', 0]
+['LARGE', 5, 'Y', 7911]
+Shablon
+['G', 'R', 'N', 'N', 'Y', 'B']
+Sklad
+['N', 'G', 'R', 'B', 'W', 'Y']
+Waiting data from arduino...
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'000000\r\n'
+Message from arduino: b'NGRBWY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to free cell 0\r\n'
+Message from arduino: b'Selected level is 0\r\n'
+Message from arduino: b'Cell 1 has valid color\r\n'
+Message from arduino: b'Cell 4 is ball\r\n'
+Message from arduino: b'Cell 5 is ball\r\n'
+Message from arduino: b'Allowed positions: 001100\r\n'
+Message from arduino: b'Move cube from 0:0 to 2:1\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Calc level for moving from 4 to 0 without cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 2\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'00N000\r\n'
+Message from arduino: b'0GRBWY\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 0 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'00N000\r\n'
+Message from arduino: b'0GRBWY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 0\r\n'
+Message from arduino: b'Move cube from 1:0 to 0:0\r\n'
+Message from arduino: b'Set level 2\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn right\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 2 to 0 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Turn left\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Calc level for moving from 0 to 0 with cube\r\n'
+Message from arduino: b'Has not second level\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move to position 0\r\n'
+Message from arduino: b'Set level 0\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Move down\r\n'
+Message from arduino: b'Raise cube\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'00N000\r\n'
+Message from arduino: b'G0RBWY\r\n'
+Message from arduino: b'Check for work\r\n'
+Message from arduino: b'Cell 1 is invalid\r\n'
+Message from arduino: b'Sklad:\r\n'
+Message from arduino: b'00N000\r\n'
+Message from arduino: b'G0RBWY\r\n'
+Message from arduino: b'Search for empty cells\r\n'
+Message from arduino: b'Trying to fill cell 1\r\n'
+Message from arduino: b'Trying to free cell 2\r\n'
+Message from arduino: b'Selected level is 1\r\n'
+Message from arduino: b'Cell 2 has second level\r\n'
+Message from arduino: b'Cell 4 is ball\r\n'
+Message from arduino: b'Cell 5 is ball\r\n'
+Message from arduino: b'Allowed positions: 100100\r\n'
+Message from arduino: b'Move cube from 2:1 to 0:1\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Calc level for moving from 0 to 2 without cube\r\n'
+Message from arduino: b'Has second level\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move to position 2\r\n'
+Message from arduino: b'Set level 1\r\n'
+Message from arduino: b'Take cube\r\n'
+Message from arduino: b'Set level 3\r\n'
+Message from arduino: b'Move up\r\n'
+Message from arduino: b'Move up\r\n'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
