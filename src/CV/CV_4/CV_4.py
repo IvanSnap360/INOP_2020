@@ -6,15 +6,16 @@ import sys
 
 cap = cv2.VideoCapture(0)
 
-cells_min = np.array((0,107,0), np.uint8)
-cells_max = np.array((146, 123, 255), np.uint8)
+cells_min = np.array((0,0,165), np.uint8)
+cells_max = np.array((255, 88, 188), np.uint8)
 size_for_resize = (64,64)
 
 
 plan=cv2.imread("E:\\IVAN\\Ivan_desktop\\Kvantorium\\Competitions\\INOP_2020\\src\\CV\\CV_4\\pic.jpg")
 plan=cv2.resize(plan,size_for_resize)
+plan = cv2.blur(plan, (2,2), 0)
 plan=cv2.cvtColor(plan, cv2.COLOR_BGR2HSV)
-plan = cv2.cv2.inRange(plan, cells_min, cells_max)
+plan = cv2.inRange(plan, cells_min, cells_max)
 cv2.imshow("plan", plan)
 
 
@@ -25,8 +26,10 @@ while True:
     frame2 = frame.copy()
     frame = cv2.convertScaleAbs(frame)
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    frame = cv2.GaussianBlur(frame, (3, 3), 0)
-    frame = cv2.cv2.inRange(frame, cells_min, cells_max)
+    cv2.imshow("frame2", frame)
+    frame = cv2.blur(frame, (2, 2), 0)
+    frame = cv2.inRange(frame, cells_min, cells_max)
+    cv2.imshow("frame", frame)
     frame = cv2.erode(frame, None, iterations= 2)
     frame = cv2.dilate(frame, None, iterations= 4)
     contrours, heir = cv2.findContours(frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
