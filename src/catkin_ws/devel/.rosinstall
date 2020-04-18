@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ivan/INOP_2020/src/catkin_ws/devel/setup.sh

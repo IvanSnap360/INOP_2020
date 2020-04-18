@@ -53,11 +53,11 @@ def find_color(cadr, color_min, color_max):
     blur = cv2.blur(cadr2, blur_setting, 0)
     hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV)
     thresh = cv2.inRange(hsv, color_min, color_max)
-    conts, heir = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE,)
+    _,  contos, heir = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE,)
     color = "" 
-    if conts:
-        conts = sorted(conts, key=cv2.contourArea, reverse=True)
-        (x,y,w,h) = cv2.boundingRect(conts[0])
+    if contos:
+        contos = sorted(contos, key=cv2.contourArea, reverse=True)
+        (x,y,w,h) = cv2.boundingRect(contos[0])
         cv2.rectangle(cadr2, (x + point_sdvig ,y + point_sdvig), (x+w-point_sdvig, y+h-point_sdvig), find_rectangle_line_color, find_rectangle_line_thin)
         #cv2.drawContours(cadr, conts,-1,(0,0,255),3)
       
@@ -84,7 +84,7 @@ while True:
     blur = cv2.blur(frame, blur_setting, 0)
     hsv = cv2.cvtColor(blur, cv2.COLOR_BGR2HSV)
     thresh = cv2.inRange(hsv, cells_min, cells_max)
-    conts, heir = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    _, conts, heir = cv2.findContours(thresh.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
     if conts:
         conts = sorted(conts, key=cv2.contourArea, reverse=True)
@@ -134,14 +134,14 @@ while True:
     #         print
     print(plan)
 
-    cv2.imshow("RED",red_frame)
-    cv2.imshow("BLUE",blue_frame)
-    cv2.imshow("GREEN",green_frame)
-    cv2.imshow("YELLOW",yellow_frame)
-    cv2.imshow("BLACK",black_frame)
-    cv2.imshow("WHITE",white_frame)
+#    cv2.imshow("RED",red_frame)
+#    cv2.imshow("BLUE",blue_frame)
+#    cv2.imshow("GREEN",green_frame)
+#    cv2.imshow("YELLOW",yellow_frame)
+#   cv2.imshow("BLACK",black_frame)
+#    cv2.imshow("WHITE",white_frame)
 
-    cv2.imshow("roImg", roImg)
+#    cv2.imshow("roImg", roImg)
     cv2.imshow("FRAME", frame)
 
     if cv2.waitKey(1) == ord('q'):
