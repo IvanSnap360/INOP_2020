@@ -3,22 +3,18 @@
 import cv2 
 import numpy as np 
 import rospy 
-from std_msgs.msg import Int16
+from std_msgs.msg import Int32
 import os
 
-color_0_0 = rospy.Publisher("robot/plan/0_0", Int16,queue_size=10)
-color_1_0 = rospy.Publisher("robot/plan/1_0", Int16,queue_size=10)
-color_2_0 = rospy.Publisher("robot/plan/2_0", Int16,queue_size=10)
+plan_pub = [[0,0,0],[0,0,0],[0,0,0]]
 
-color_0_1 = rospy.Publisher("robot/plan/0_1", Int16,queue_size=10)
-color_1_1 = rospy.Publisher("robot/plan/1_1", Int16,queue_size=10)
-color_2_1 = rospy.Publisher("robot/plan/2_1", Int16,queue_size=10)
-
-color_0_2 = rospy.Publisher("robot/plan/0_2", Int16,queue_size=10)
-color_1_2 = rospy.Publisher("robot/plan/1_2", Int16,queue_size=10)
-color_2_2 = rospy.Publisher("robot/plan/2_2", Int16,queue_size=10)
-
+for i in range(3):
+    for j in range(3):
+        plan_pub[i][j] = rospy.Publisher("robot/plan_"+str(i)+"_"+str(j), Int32, queue_size=10)
 rospy.init_node("plan", anonymous=True)
+
+
+
 
 
 red_min = np.array((0, 216, 58), np.uint8)
@@ -148,11 +144,13 @@ def detect():
                         aj=int(i/80)
                         ai=int(j/80)
                         plan[ai][aj] = color[a]
+                        
 
 
         # for io in range (0,3,1):
         #     for jo in range(0,3,1):
         #         print
+        print(attemps)
         print(plan)
 
     #    cv2.imshow("RED",red_frame)
@@ -163,29 +161,18 @@ def detect():
     #    cv2.imshow("WHITE",white_frame)
 
     #    cv2.imshow("roImg", roImg)
-        cv2.imshow("FRAME", frame)
+    #    cv2.imshow("FRAME", frame)
 
         # if cv2.waitKey(1) == ord('q'):
-        #     break
-    color_0_0.publish(plan[0][0])
-    color_1_0.publish(plan[1][0])
-    color_2_0.publish(plan[2][0])
-
-    color_0_1.publish(plan[0][1])
-    color_1_1.publish(plan[1][1])
-    color_2_1.publish(plan[2][1])
-
-    color_0_2.publish(plan[0][2])
-    color_1_2.publish(plan[1][2])
-    color_2_2.publish(plan[2][2])
-    
-    
+        #     break   
     
 detect()
+for i in range(3):
+    for j in range(3):
+        num = plan[i][j]
+        plan_pub[i][j].publish(num)
+    
 
-
-
-rospy.spin()
 
 cap.release()
 cv2.destroyAllWindows()    
